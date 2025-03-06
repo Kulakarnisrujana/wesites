@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Colorful Shoe Store</h1>
+    </header>
+
+    <section class="products">
+      <div class="shoe-card">
+        <img src="shoe1.png" alt="Shoe 1" />
+        <h2>Red Sneakers</h2>
+        <p>$49.99</p>
+        <button onclick="addToCart('Red Sneakers', 49.99)">Add to Cart</button>
+      </div>
+
+      <div class="shoe-card">
+        <img src="shoe2.png" alt="Shoe 2" />
+        <h2>Blue Running Shoes</h2>
+        <p>$59.99</p>
+        <button onclick="addToCart('Blue Running Shoes', 59.99)">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="shoe-card">
+        <img src="shoe3.png" alt="Shoe 3" />
+        <h2>Green Casual Shoes</h2>
+        <p>$39.99</p>
+        <button onclick="addToCart('Green Casual Shoes', 39.99)">
+          Add to Cart
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Shoe Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
